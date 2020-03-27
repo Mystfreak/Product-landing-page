@@ -1,0 +1,97 @@
+body{
+ margin:0;
+ background: url(https://img.pngio.com/hair-care-tips-use-potato-juice-for-hair-growth-girl-with-long-hair-png-1200_900.jpg) no-repeat center top;
+  background-size: 800px 600px;
+}
+#header{
+  position:fixed;
+  width:100%;
+  display:flex;
+  align-items:center;
+  height:50px;
+  background-color:black;
+}
+#header-img{
+  height:100px;
+}
+.navbar{
+  list-style-type:none;
+  display:flex;
+  justify-content:space-around;
+  font-family:fantasy;
+  font-size:20px;
+}
+#nav-bar{
+  width:100%;
+}
+.nav-link:hover {
+  background-color: grey;
+}
+.nav-link{
+  color:white;
+  margin-top:30px;
+  text-decoration:none;
+}
+#video{
+  height:400px;
+  width: 600px;
+  margin: 0px 400px;
+}
+.about-title{
+  color:white;
+  font-family:fantasy;
+  text-align:center;
+  margin-top:70px;
+}
+.contact-title{
+  font-family:fantasy;
+  text-align:center;
+}
+.hairgrowth-page{
+  height:100%;
+}
+.pills{
+  height:200px;
+  margin-left:70px
+}
+.about-page{
+  height:100%;
+  background-color:grey;
+}
+.contact-page{
+  height:100%;
+}
+.text{
+  text-align:center;
+}
+.brand-img{
+  height:100%;
+  margin:50px -100px;
+}
+.order-form{
+  margin:50px 0px;
+  display:inline-block;
+  text-align:right;
+  width: 20%;
+}
+label{
+  display:inline-block;
+  font-family:fantasy;
+  text-align:right;
+  width: 40%;
+  margin-top: 20px;
+}
+#submit{
+  display:inline-block;
+  text-align:center;
+  width: 20%;
+  margin-top: 40px;
+}
+.title{
+  font-family:fantasy;
+}
+@media only screen and (max-width: 200px) {
+  nav{
+    display:none;
+  }
+}
