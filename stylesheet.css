@@ -32,11 +32,6 @@ body{
   margin-top:30px;
   text-decoration:none;
 }
-#video{
-  height:400px;
-  width: 600px;
-  margin: 0px 400px;
-}
 .about-title{
   color:white;
   font-family:fantasy;
@@ -51,12 +46,11 @@ body{
   height:100%;
 }
 .pills{
-  height:200px;
-  margin-left:70px
+  width:100%;
+  height:auto;
 }
 .about-page{
-  height:100%;
-  background-color:grey;
+  background-color:black;
 }
 .contact-page{
   height:100%;
@@ -78,20 +72,32 @@ label{
   display:inline-block;
   font-family:fantasy;
   text-align:right;
-  width: 40%;
-  margin-top: 20px;
+  width:100%;
+  height:auto;
 }
 #submit{
   display:inline-block;
   text-align:center;
-  width: 20%;
-  margin-top: 40px;
+  width:100%;
+  height:auto;
 }
 .title{
   font-family:fantasy;
+  text-align:center;
 }
-@media only screen and (max-width: 200px) {
-  nav{
-    display:none;
+.wrapper{
+  position:relative;
+  padding-top: 56.25%;
+  overflow:hidden;
+}
+.wrapper iframe{
+  position: absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+}
+@media only screen and (max-width: 600px) {
+
   }
 }
