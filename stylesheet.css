@@ -18,19 +18,20 @@ body{
   list-style-type:none;
   display:flex;
   justify-content:space-around;
-  font-family:fantasy;
+  font-family:serif;
   font-size:20px;
 }
 #nav-bar{
   width:100%;
 }
 .nav-link:hover {
-  background-color: grey;
+  color: green;
 }
 .nav-link{
   color:white;
-  margin-top:30px;
   text-decoration:none;
+  display:flex;
+  justify-content: center;
 }
 .about-title{
   color:white;
